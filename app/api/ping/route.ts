@@ -1,18 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json({ ok: true, route: "generate-pack" });
+  return NextResponse.json({ ok: true, ping: "pong" });
 }
 
-export async function POST() {
-  return NextResponse.json({ ok: true, method: "POST works" });
-}import { NextResponse } from "next/server";
-
-export async function GET() {
-  return NextResponse.json({ ok: true, route: "generate-pack" });
-}
-
-export async function POST() {
-  return NextResponse.json({ ok: true, method: "POST works" });
-}
 
