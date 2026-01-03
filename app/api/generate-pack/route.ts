@@ -1,9 +1,5 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json({ ok: true, route: "generate-pack" });
-}
-
-export async function POST() {
-  return NextResponse.json({ ok: true, method: "POST works" });
+  return NextResponse.json({ ok: true, ping: "pong" });
 }
